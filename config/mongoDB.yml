@@ -1,24 +1,24 @@
 Default: &defaults
-  user: Yosog
-  password: Yosog
+  user: Chernobog
+  password: Chernobog
   host: localhost
   port: 27017
-  database: Yosog
+  database: Chernobog
   poolsize: 10
 
 Development:
   <<: *defaults
 
 Testing:
-  database: Yosog_test
+  database: Chernobog_test
   <<: *defaults
 
 Staging:
-  database: Yosog_staging
+  database: Chernobog_staging
   poolsize: 100
   <<: *defaults
 
 Production:
-  database: Yosog_production
+  database: Chernobog_production
   poolsize: 100
   <<: *defaults

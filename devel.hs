@@ -1,5 +1,5 @@
 {-# LANGUAGE PackageImports #-}
-import "Yosog" Application (getApplicationDev)
+import "Chernobog" Application (getApplicationDev)
 import Network.Wai.Handler.Warp
     (runSettings, defaultSettings, settingsPort)
 import Control.Concurrent (forkIO)

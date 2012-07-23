@@ -17,7 +17,7 @@ getHomeR = do
         handlerName = "getHomeR" :: Text
     defaultLayout $ do
         aDomId <- lift newIdent
-        setTitle "The Blog Yosog!"
+        setTitle "The Blog Chernobog!"
         $(widgetFile "homepage")
 
 postHomeR :: Handler RepHtml
