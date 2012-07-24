@@ -1,6 +1,8 @@
 <h1 #blog-title>_{MsgTitle}
 <p #description>_{MsgSubtitle}
 
+<img src=@{StaticR img_ret_of_dark_one_350x202_jpg} alt="Good boy, Chernobog!">
+
 <div #container>
 <p #post-title>Hi here this is some stuff that I am writing.
 
