@@ -38,19 +38,9 @@ library
         ghc-options:   -Wall -threaded -O0
     else
         ghc-options:   -Wall -threaded -O2
+        
+    Default-Language: Haskell2010
 
-    extensions: TemplateHaskell
-                QuasiQuotes
-                OverloadedStrings
-                NoImplicitPrelude
-                CPP
-                MultiParamTypeClasses
-                TypeFamilies
-                GADTs
-                GeneralizedNewtypeDeriving
-                FlexibleContexts
-                EmptyDataDecls
-                NoMonomorphismRestriction
 
     build-depends: base                          >= 4          && < 5
                  , yesod-platform                >= 1.0        && < 1.1
@@ -88,6 +78,7 @@ executable         Chernobog
     build-depends:     base
                      , Chernobog
                      , yesod-default
+    Default-Language: Haskell2010
 
 test-suite test
     type:              exitcode-stdio-1.0
@@ -111,3 +102,5 @@ test-suite test
                  , yesod-test
                  , yesod-default
                  , yesod-core
+                 
+    Default-Language: Haskell2010
