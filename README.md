@@ -8,7 +8,7 @@ eventually work the idea up into my own blogging solution.
 
 TODO: 
 
-1) Complete styling so that it looks like a blog/resume site. 
-2) Create admin pages for blog entry.
-3) Add oath for user authentication. 
-4) Keep playing with this simple POC for now.
+* Complete styling so that it looks like a blog/resume site. 
+* Create admin pages for blog entry.
+* Add oath for user authentication. 
+* Keep playing with this simple POC for now.
