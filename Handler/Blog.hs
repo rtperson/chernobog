@@ -28,7 +28,7 @@ postBlogR = do
     case res of
         FormSuccess article -> do
             articleId <- runDB $ insert article
-            setMessage $ toHtml $ (articleTitle article) -- <> "created"
+            setMessage $ toHtml $ (articleTitle article) `mappend` " -- created"
             redirect $ ArticleR articleId
         _ -> defaultLayout $ do
                 setTitle "Please correct your entry form"

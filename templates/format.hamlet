@@ -1,0 +1,7 @@
+<h1> Something here
+<article> Something here too
+<div .row>
+<div .span6>
+    <br>inline elements like span, block elements like p, div.
+<div .span6>
+    <br>Another bunch of elements, should be next to...

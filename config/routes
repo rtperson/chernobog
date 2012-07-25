@@ -10,3 +10,5 @@
 
 /blog             BlogR    GET POST
 /blog/#ArticleId  ArticleR GET
+
+/format           FormatR  GET

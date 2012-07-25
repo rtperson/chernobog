@@ -1,3 +1,4 @@
+{-# LANGUAGE CPP #-}
 module Import
     ( module Prelude
     , module Yesod
