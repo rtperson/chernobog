@@ -1,8 +1,14 @@
-yosog
+Chernobog
 =====
 
-A blog app created using Haskell and Yesod
+A blog app using Haskell and Yesod
 
-The name "yosog" originates with Yann Esposito's excellent Yesod tutorial. My intention is to 
-eventually work the idea up into my own blogging solution. (At which point I will regretfully
-drop the awesome name.)
+Chernobog is based on Yann Esposito's Yosog tutorial. My intention is to 
+eventually work the idea up into my own blogging solution. 
+
+TODO: 
+
+1) Complete styling so that it looks like a blog/resume site. 
+2) Create admin pages for blog entry.
+3) Add oath for user authentication. 
+4) Keep playing with this simple POC for now.
