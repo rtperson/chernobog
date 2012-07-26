@@ -1,7 +1,68 @@
-<h1> Something here
-<article> Something here too
+<div .container>
 <div .row>
-<div .span6>
-    <br>inline elements like span, block elements like p, div.
-<div .span6>
-    <br>Another bunch of elements, should be next to...
+    <div .span12>
+        <h1>w3resource.com is a web design and development tutorial.
+
+<div .row>
+    <div .span3>
+        <p><img src=@{StaticR img_w3logo6_png}>
+    <div .span9>
+        <p>w3resource offers web development tutorials. We believe in Open Source. Love standards. And prioritize simplicity and readability while serving content. with 3000+ unique content pages and thousands of examples, we are comprehensive. We have online practice editors to play around with the example codes.
+
+<div .row>
+    <div .span12>
+        <h3>Some of the topics and more... :
+    <div .span2>
+        <p><img src=@{StaticR img_html5_logo_png} width="140" height="86">
+    <div .span2>
+        <p><img src=@{StaticR img_javascript_logo_png} width="140" height="86">
+    <div .span2>
+        <p><img src=@{StaticR img_json_gif} width="140" height="86">
+    <div .span2>
+        <p><img src=@{StaticR img_php_png} width="140" height="86">
+    <div .span2>
+        <p><img src=@{StaticR img_mysql_logo_png} width="140" height="86">
+    <div .span2>
+        <p><img src=@{StaticR img_browser_statistics_png} width="140" height="86">
+
+<div .row>
+    <div .span12>
+        <h3>Social networking sites to share:
+    <div .span1>
+        <p><img src=@{StaticR img_gplus_png} width="50" height="49">
+    <div .span1>
+        <p><img src=@{StaticR img_twitter_png} width="50" height="38">
+    <div .span1>
+        <p><img src=@{StaticR img_orkut_png} width="50" height="55">
+    <div .span1>
+        <p><img src=@{StaticR img_ipad_png} width="50" height="53">
+    <div .span1>
+        <p><img src=@{StaticR img_digo_png} width="50" height="54">
+    <div .span1>
+        <p><img src=@{StaticR img_zapface_png} width="51" height="53">
+    <div .span1>
+        <p><img src=@{StaticR img_facebook_png} width="48" height="53">
+    <div .span1>
+        <p><img src=@{StaticR img_netvibes_png} width="51" height="53">
+    <div .span1>
+        <p><img src=@{StaticR img_linkedin_png} width="49" height="54">
+    <div .span1>
+        <p><img src=@{StaticR img_newsvine_png} width="48" height="53">
+    <div .span1>
+        <p><img src=@{StaticR img_blogger_png} width="51" height="53">
+    <div .span1>
+        <p><img src=@{StaticR img_reditt_png} width="48" height="57">
+
+<div .row>
+    <div .span3>
+        <h3>Frontend Development:
+        <p>HTML4.0, XHTML1.0, CSS2.1, HTML5, CSS3, JavaScript
+    <div .span3>
+        <h3>Backend Development:
+        <p>PHP, Ruby, Python, Java, ASP.NET, SCALA
+    <div .span3>
+        <h3>Database Management:
+        <p>SQL, MySQL, POstgreSQL, NoSQL, MongoDB
+    <div .span3>
+        <h3>APIs, Tools and Tips:
+        <p>Google Plus API, Twitter Bootstrap, JSON, Firebug, WebPNG
