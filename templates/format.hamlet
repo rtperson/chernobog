@@ -66,3 +66,14 @@
     <div .span3>
         <h3>APIs, Tools and Tips:
         <p>Google Plus API, Twitter Bootstrap, JSON, Firebug, WebPNG
+        
+<div .row>
+    <div .span4>
+        <p>
+    <div .span8>
+        <a href="http://www.w3resource.com/twitter-bootstrap/tutorial.php">Following this tutorial here...
+<div .row>
+    <div .span12>
+        <a href=@{Format2R}>There is another bootstrap CSS tutorial this way...
+        
+        

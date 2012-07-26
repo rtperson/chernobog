@@ -12,3 +12,4 @@
 /blog/#ArticleId  ArticleR GET
 
 /format           FormatR  GET
+/format/2         Format2R GET
