@@ -1,0 +1,17 @@
+<div ."navbar navbar-fixed-top">
+    <div .navbar-inner>
+        <div .container-fluid>
+            <a ."btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span .icon-bar>
+                <span .icon-bar>
+                <span .icon-bar>
+            <a .brand href="#"><img src=@{StaticR img_w3r_png} width="111" height="30" alt="w3resource logo">
+            <div .nav-collapse>
+                <ul .nav>
+                    <li .active>
+                        <a href="#">Home
+                    <li>
+                        <a href="#">About
+                    <li>
+                        <a href="#">Contact
+                <p ."navbar-text pull-right">Logged in as <a href="#">username
