@@ -8,7 +8,7 @@ synopsis:          A Haskell blog system with a MongoDB backend
 description:       After Yann Esposito's Yosog
 category:          Web
 stability:         Experimental
-cabal-version:     >= 1.14.0
+cabal-version:     >= 1.10.0
 build-type:        Simple
 homepage:          
 
