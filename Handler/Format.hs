@@ -21,6 +21,14 @@ getFormat2R = do
     defaultLayout $ do
         setTitle "Example of Fixed Layout with Twitter Bootstrap version 2.0 from w3resource.com"
         $(widgetFile "format2")
+        
+topNav :: Widget
+topNav = do
+    $(widgetFile "top-nav")
+    
+leftNav :: Widget
+leftNav = do
+    $(widgetFile "left-nav")
 
 
 
