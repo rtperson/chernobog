@@ -4,6 +4,7 @@ cabal-dev
 *.hi
 *.chi
 *.chs.h
+*.swp
 .static-cache
 static/tmp
 client_session_key.aes

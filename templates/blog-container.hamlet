@@ -13,3 +13,6 @@
                         <p>Dolor tritani no mea, duo iudico efficiantur eu. Nibh nemore constituto no ius. Eum ei tota quodsi adversarium, mea labitur alienum corrumpit cu. Has at modo ancillae, alii mundi ea est. Inermis maiorum repudiare vis at, eripuit volumus sententiae in vis.
                         <br>
                         <p>Cu verear utroque patrioque ius, inani recteque pertinacia vis ad. Admodum delicata mediocritatem ei sit. Sea et vocent fabulas tincidunt, apeirian omittantur ei eam. Sea probo everti ad.
+                        $forall Entity articleId article <- articles
+                        <h2>#{articleTitle}
+                        <p>Lorem ipsum

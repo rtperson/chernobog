@@ -32,6 +32,7 @@ leftNav = do
 
 blogContainer :: Widget
 blogContainer = do
+    articles <- runDB $ selectList [] [Desc ArticleTitle]
     $(widgetFile "blog-container")
 
 
