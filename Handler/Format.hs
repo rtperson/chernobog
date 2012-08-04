@@ -30,6 +30,9 @@ leftNav :: Widget
 leftNav = do
     $(widgetFile "left-nav")
 
+blogContainer :: Widget
+blogContainer = do
+    $(widgetFile "blog-container")
 
 
     
