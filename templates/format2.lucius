@@ -12,7 +12,7 @@
 	  .leaderboard {
   padding: 60px;
   margin-bottom: 30px;
-  background-image: url('/twitter-bootstrap/images/gridbg.gif');
+  background-image: url('/static/img/gridbg.gif');
   background-repeat:repeat;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -32,7 +32,7 @@
 }
 
 .well {
-background-image: url('/twitter-bootstrap/images/gridbg.gif');
+background-image: url('/static/img/gridbg.gif');
   background-repeat:repeat;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;

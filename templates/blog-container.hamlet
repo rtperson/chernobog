@@ -1,9 +1,12 @@
-<div .container>
+<div .container-fluid>
+    <div .row-fluid>
+        <div .span12>
+            <img src=@{StaticR img_logo600x126_png} alt="The Blog Chernobog">
     <div .row-fluid>
         <div .span8>
             <div .well>
-                <div .row>
-                    <div .span7>
+                <div .row-fluid>
+                    <div ."span7 offset3">
                         <h2>Facebook Timeline Design Using JQuery and CSS
                         <p>Lorem ipsum dolor sit amet, elit verterem gloriatur cu cum. Veniam facete assentior his an, pri dolore omittantur cu. Has ea laoreet impedit feugait, no adipiscing scribentur mea, malis minimum ea sea. Ne odio magna menandri pri, has tritani graecis quaerendum no, ei qui sumo vero singulis.<br>
                         <p>Nobis dolorem vis te, id sit graece volutpat recteque. Quas natum altera vix ei. Oblique efficiendi has cu, cu dicta maluisset vix, nam et solum novum. Mel ut ullum dolorem vivendo. Eum cu praesent dissentiunt liberavisse. Rebum tantas usu in, quo at ridens detraxit. Saperet offendit theophrastus in sed, ne invidunt antiopam per.
