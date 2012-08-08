@@ -11,5 +11,5 @@ formatSpecs =
     it "loads the index and checks it looks right" $ do
       get_ "/format/2"
       statusIs 200
-      htmlAllContain "h1" "Hello"
+      bodyContains "Lorem ipsum"
 
