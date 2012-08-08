@@ -1,17 +1,17 @@
-{-# LANGUAGE OverloadedStrings #-}
-module HomeTest
-    ( homeSpecs
+module FormatTest
+    ( formatSpecs
     ) where
 
-import TestImport
+import Import
+import Yesod.Test
 
-homeSpecs :: Specs
-homeSpecs =
+formatSpecs :: Specs
+formatSpecs =
   describe "These are some example tests" $
     it "loads the index and checks it looks right" $ do
-      get_ "/"
+      get_ "/format/2"
       statusIs 200
-      htmlAllContain "h1" "The Chernobog Blog"
+      htmlAllContain "h1" "Hello"
 
       post "/" $ do
         addNonce

@@ -4,7 +4,7 @@ Default: &defaults
   host: localhost
   port: 27017
   database: Chernobog
-  poolsize: 10
+  connections: 10
 
 Development:
   <<: *defaults
@@ -15,10 +15,11 @@ Testing:
 
 Staging:
   database: Chernobog_staging
-  poolsize: 100
+  connections: 100
   <<: *defaults
 
 Production:
   database: Chernobog_production
-  poolsize: 100
+  connections: 100
+  host: localhost
   <<: *defaults
