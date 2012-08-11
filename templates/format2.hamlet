@@ -1,5 +1,24 @@
 ^{topNav}
+<div .container-fluid>
+    <div .row-fluid>
+        <div .span12>
+            <img src=@{StaticR img_logo600x126_png} alt="The Blog Chernobog">
 
 ^{blogContainer} 
+    <div .row-fluid>
+        <div .span8>
+            <div .well>
+                <div .row-fluid>
+                    <div ."span10">
+                        <h2>Facebook Timeline Design Using JQuery and CSS
+                        <p>Lorem ipsum dolor sit amet, elit verterem gloriatur cu cum. Veniam facete assentior his an, pri dolore omittantur cu. Has ea laoreet impedit feugait, no adipiscing scribentur mea, malis minimum ea sea. Ne odio magna menandri pri, has tritani graecis quaerendum no, ei qui sumo vero singulis.<br>
+                        <p>Nobis dolorem vis te, id sit graece volutpat recteque. Quas natum altera vix ei. Oblique efficiendi has cu, cu dicta maluisset vix, nam et solum novum. Mel ut ullum dolorem vivendo. Eum cu praesent dissentiunt liberavisse. Rebum tantas usu in, quo at ridens detraxit. Saperet offendit theophrastus in sed, ne invidunt antiopam per.
+                        <br>
+                        <p>At qui perpetua reprehendunt, latine assentior an sed, eum no legere possit. Sea illud liber no, ut novum ocurreret reprehendunt per. Mollis viderer vim in, ei modo efficiantur delicatissimi sed. Mea virtute blandit consequuntur ne, vim id iisque copiosae. Ne vim dicta forensibus liberavisse.
+                        <br>
+                        <p>Dolor tritani no mea, duo iudico efficiantur eu. Nibh nemore constituto no ius. Eum ei tota quodsi adversarium, mea labitur alienum corrumpit cu. Has at modo ancillae, alii mundi ea est. Inermis maiorum repudiare vis at, eripuit volumus sententiae in vis.
+                        <br>
+                        <p>Cu verear utroque patrioque ius, inani recteque pertinacia vis ad. Admodum delicata mediocritatem ei sit. Sea et vocent fabulas tincidunt, apeirian omittantur ei eam. Sea probo everti ad.
+
 
 

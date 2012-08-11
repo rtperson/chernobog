@@ -1,9 +1,11 @@
-{-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE QuasiQuotes, TypeFamilies, GeneralizedNewtypeDeriving, FlexibleContexts #-}
+{-# LANGUAGE TemplateHaskell, OverloadedStrings, GADTs, MultiParamTypeClasses #-}
 module FormatTest
     ( formatSpecs
     ) where
 
 import TestImport
+
 
 formatSpecs :: Specs
 formatSpecs =
@@ -12,4 +14,9 @@ formatSpecs =
       get_ "/format/2"
       statusIs 200
       bodyContains "Lorem ipsum"
+      
+  --}    
+  
+
+
 
