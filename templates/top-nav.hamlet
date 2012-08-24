@@ -13,8 +13,6 @@
                     <li>
                         <a href="#">About
                     <li>
-                        <a href="#">Resume
-                    <li>
                         <a href="https://github.com/rtperson" target="_blank">Projects
                 <p ."navbar-text pull-right">Powered by 
                     <a href="http://www.yesodweb.com" target="_blank">Yesod

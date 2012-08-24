@@ -18,10 +18,14 @@ getFormatR = do
         
 getFormat2R :: Handler RepHtml
 getFormat2R = do
+    articles <- runDB $ selectList [] [Desc ArticleTitle]
     defaultLayout $ do
         setTitle "Example of Fixed Layout with Twitter Bootstrap version 2.0 from w3resource.com"
         $(widgetFile "format2")
-        
+        $(widgetFile "top-nav")
+        $(widgetFile "blog-container")
+
+ 
 topNav :: Widget
 topNav = do
     $(widgetFile "top-nav")
