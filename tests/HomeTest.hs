@@ -1,9 +1,9 @@
+{-# LANGUAGE OverloadedStrings #-}
 module HomeTest
     ( homeSpecs
     ) where
 
-import Import
-import Yesod.Test
+import TestImport
 
 homeSpecs :: Specs
 homeSpecs =
@@ -11,7 +11,7 @@ homeSpecs =
     it "loads the index and checks it looks right" $ do
       get_ "/"
       statusIs 200
-      htmlAllContain "h1" "Hello"
+      htmlAllContain "h1" "The Chernobog Blog"
 
       post "/" $ do
         addNonce
