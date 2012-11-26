@@ -5,7 +5,6 @@ import Database.MongoDB
 import Control.Monad.Trans (liftIO)
 import Control.Monad.IO.Class
 import Data.Either
---import Data.Text
 import Data.Time
 
 
@@ -40,3 +39,4 @@ deleteArticleById pipe id = do
 deleteArticleByTitle pipe title = do
     run pipe $ delete $ select ["title" =: title] "article"
 
+printDocs title docs = liftIO $ 
